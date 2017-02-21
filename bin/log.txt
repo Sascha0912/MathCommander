@@ -1,0 +1,18 @@
+Funktionalitaet des Programms:
+
+1. 	ggt(int, int) -> int						(Groesster gemeinsamer Teiler) berechnen
+2. 	kgv(int, int) -> int						(Kleinstes gemeinsames Vielfaches) berechnen
+3. 	teilerfremd(int, int) -> boolean			(auf teilerfremdheit pruefen)
+4. 	pf(int) -> void								(Primfaktorzerlegung einer ganzen Zahl)
+5. 	euklid(int, int) -> void					(ggt berechnen mit euklid. Alg.)
+6. 	ulam(int) -> int							(Ulam-Funktion)
+7. 	chin(int[], int[]) -> int					(fehlerhaft)(Chinesischer Restsatz für beliebig viele Kongruenzen)
+8. 	createAddTab(int) -> void					(Additionstabelle modulo x)
+9. 	createMulTab(int) -> void					(Multiplikationstabelle modulo x)
+10. zykGruppe(int) -> void						(Zyklische Untergruppen berechnen)
+11. nebenklasse(int, int) -> void				(Linksnebenklassen berechnen)
+12. eulerphi(int) -> int						(Eulersche Phi-Funktion berechnen)
+13. eratosthenes(int) -> boolean[]				(Sieb des Eratosthenes berechnen)
+14. fakultaet(int) -> int						(Fakultaetsfunktion rekursiv)
+15. wilson(int) -> boolean						(Wilson-Test)
+16. fermat(int) -> boolean						(Fermat-Test)

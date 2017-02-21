@@ -1,0 +1,18 @@
+Folgende Befehle stehen Ihnen derzeit zur Verfügung:
+>help< - Zeigt Ihnen alle Befehle an.
+>ggt< - Lässt Sie den grössten gemeinsamen Teiler von zwei Zahlen berechnen.
+>kgv< - Lässt Sie das kleinste gemeinsame Vielfache von zwei Zahlen berechnen.
+>pf< - Lässt Sie die Primfaktorzerlegung einer Zahl berechnen.
+>euklid< - Berechnet den ggT zweier Zahlen mit dem Euklidischen Algorithmus.
+>ulam< - Berechnet die Ulam-Funktion für eine natürliche Zahl.
+>chin< - Löst ein Kongruenzgleichungssystem mit dem Chinesischen Restsatz.
+>addtab< - Additionstabelle modulo x.
+>multab< - Multiplikationstabelle modulo x.
+>zykgr< - Berechnet alle zyklischen Untergruppen modulo x.
+>nebkl< - Berechnet Links- und Rechtsnebenklassen.
+>eulerphi< - Berechnet die Eulersche Phi-Funktion.
+>eratos< - Berechnet das Sieb des Eratosthenes
+>fak< - Berechnet die Fakultaetsfunktion
+>wilson< - Wilson-Test
+>fermat< - Fermat-Test
+>exit< - Beendet das Programm.
