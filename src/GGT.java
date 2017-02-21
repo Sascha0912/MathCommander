@@ -16,6 +16,11 @@ public class GGT {
 
 	public static void main(String[] args) {
 		
+		initializeCommands();
+	}
+	
+	public static void initializeCommands() {
+		
 		scanner = new Scanner(System.in);
 		
 		
