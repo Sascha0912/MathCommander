@@ -10,24 +10,21 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class GGT {
-
 	private static CommandHandler handler;
 	private static Scanner scanner;
 
 	public static void main(String[] args) {
-		
 		initializeCommands();
 	}
-	
+
+	public static String getWelcomeText() {
+		return "Geben Sie einen Befehl ein:\nFÃ¼r Hilfe schreiben Sie >help<";
+	}
+
 	public static void initializeCommands() {
-		
+
 		scanner = new Scanner(System.in);
-		
-		
-		System.out.println("Geben Sie einen Befehl ein:");
-		System.out.println("Für Hilfe schreiben Sie >help<");
-		
-		    
+		System.out.println(getWelcomeText());
 		
 		handler = new CommandHandler();
 		handler.addCommand("ggt", new IfCommandInput() {
@@ -41,7 +38,7 @@ public class GGT {
 				System.out.println("ggt(" + x + ", " + y + ") =");
 				System.out.println(MathUtil.ggt(x, y));
 				
-				System.out.println("... ist der grösste gemeinsame Teiler.");
+				System.out.println("... ist der grÃ¶sste gemeinsame Teiler.");
 				
 				if (MathUtil.ggt(x, y) == 1) {
 					
@@ -49,10 +46,7 @@ public class GGT {
 				}
 			}
 		});
-		
-		
-		
-		
+
 		handler.addCommand("kgv", new IfCommandInput() {
 			
 			@Override

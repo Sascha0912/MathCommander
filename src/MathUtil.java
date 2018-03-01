@@ -7,7 +7,7 @@
 
 public class MathUtil {
 	
-	// greatest common divisor (Größten gemeinsamer Teiler)
+	// greatest common divisor (GrÃ¶ssten gemeinsamer Teiler)
 	
 	public static int ggt(int a, int b) {
 
@@ -102,7 +102,7 @@ public class MathUtil {
 			y = r;
 		}
 		
-		System.out.println("ggT ist der letzte Rest grösser 0 also " + ggt(a, b));
+		System.out.println("ggT ist der letzte Rest grÃ¶sser 0 also " + ggt(a, b));
 		
 	}
 	
@@ -141,7 +141,7 @@ public class MathUtil {
 				m *= module[i];
 			}
 		} else {
-			System.out.println("Fehler: Mindestens zwei Kongruenzen benötigt");
+			System.out.println("Fehler: Mindestens zwei Kongruenzen benÃ¶tigt");
 		}
 		
 		 
@@ -180,7 +180,7 @@ public class MathUtil {
 		}
 	}
 	
-	// coprime integers (auf Teilerfemdheit prüfen)
+	// coprime integers (auf Teilerfemdheit prÃ¶fen)
 	
 	public static boolean teilerfremd(int a, int b) {
 		
@@ -217,7 +217,7 @@ public class MathUtil {
 		}
 	}
 	
-	// boolean array are all indexes true? (boolean array prüfen ob alle Indizes wahr)
+	// boolean array are all indexes true? (boolean array prÃ¼fen ob alle Indizes wahr)
 	
 	public static boolean areAllTrue(boolean[] array)
 	{
